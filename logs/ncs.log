@@ -1,0 +1,313 @@
+<INFO> 9-Aug-2019::13:50:17.351 Presto-sdk-dev ncs[32276]: - Writing daemon log to /home/mef-dev/evc-project/logs/ncs.log
+<INFO> 9-Aug-2019::13:50:16.914 Presto-sdk-dev ncs[32276]: - Enabling daemon log
+<INFO> 9-Aug-2019::13:50:16.921 Presto-sdk-dev ncs[32276]: - Starting NCS vsn: 5.1.0.1
+<DEBUG> 9-Aug-2019::13:50:16.979 Presto-sdk-dev ncs[32276]: - Loading file confd.fxs
+<DEBUG> 9-Aug-2019::13:50:17.019 Presto-sdk-dev ncs[32276]: - Loading file ietf-yang-types.fxs
+<DEBUG> 9-Aug-2019::13:50:17.020 Presto-sdk-dev ncs[32276]: - Loading file ietf-inet-types.fxs
+<DEBUG> 9-Aug-2019::13:50:17.021 Presto-sdk-dev ncs[32276]: - Loading file ietf-yang-library.fxs
+<DEBUG> 9-Aug-2019::13:50:17.039 Presto-sdk-dev ncs[32276]: - Loading file ietf-netconf.fxs
+<DEBUG> 9-Aug-2019::13:50:17.041 Presto-sdk-dev ncs[32276]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 9-Aug-2019::13:50:17.042 Presto-sdk-dev ncs[32276]: - Loading file netconf_netmod.fxs
+<DEBUG> 9-Aug-2019::13:50:17.043 Presto-sdk-dev ncs[32276]: - Loading file ietf-restconf.fxs
+<DEBUG> 9-Aug-2019::13:50:17.044 Presto-sdk-dev ncs[32276]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 9-Aug-2019::13:50:17.054 Presto-sdk-dev ncs[32276]: - Loading file tailf-rest-error.fxs
+<DEBUG> 9-Aug-2019::13:50:17.055 Presto-sdk-dev ncs[32276]: - Loading file tailf-rest-query.fxs
+<DEBUG> 9-Aug-2019::13:50:17.057 Presto-sdk-dev ncs[32276]: - Loading file confd_cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:17.100 Presto-sdk-dev ncs[32276]: - Loading file config.fxs
+<DEBUG> 9-Aug-2019::13:50:17.100 Presto-sdk-dev ncs[32276]: - Loading file netconf_notification.fxs
+<DEBUG> 9-Aug-2019::13:50:17.102 Presto-sdk-dev ncs[32276]: - Loading file netconf_actions.fxs
+<DEBUG> 9-Aug-2019::13:50:17.102 Presto-sdk-dev ncs[32276]: - Loading file yang.fxs
+<DEBUG> 9-Aug-2019::13:50:17.103 Presto-sdk-dev ncs[32276]: - Loading file tailf_netconf.fxs
+<DEBUG> 9-Aug-2019::13:50:17.104 Presto-sdk-dev ncs[32276]: - Loading file cli-builtin.fxs
+<DEBUG> 9-Aug-2019::13:50:17.104 Presto-sdk-dev ncs[32276]: - Loading file tailf-ncs-config.fxs
+<DEBUG> 9-Aug-2019::13:50:17.121 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/evc-project/ncs.conf
+<INFO> 9-Aug-2019::13:50:17.141 Presto-sdk-dev ncs[32276]: - Consulting daemon configuration file /home/mef-dev/evc-project/ncs.conf
+<DEBUG> 9-Aug-2019::13:50:17.172 Presto-sdk-dev ncs[32276]: - Loading file ./packages/myservice/package-meta-data.xml
+<DEBUG> 9-Aug-2019::13:50:17.176 Presto-sdk-dev ncs[32276]: - Loading file ./packages/evc/package-meta-data.xml
+<DEBUG> 9-Aug-2019::13:50:17.178 Presto-sdk-dev ncs[32276]: - Loading file ./packages/cisco/package-meta-data.xml
+<DEBUG> 9-Aug-2019::13:50:17.205 Presto-sdk-dev ncs[32276]: - Copying NCS package from ./packages/myservice to ./state/packages-in-use.new/1
+<DEBUG> 9-Aug-2019::13:50:17.207 Presto-sdk-dev ncs[32276]: - Copying NCS package from ./packages/evc to ./state/packages-in-use.new/1
+<DEBUG> 9-Aug-2019::13:50:17.211 Presto-sdk-dev ncs[32276]: - Copying NCS package from ./packages/cisco to ./state/packages-in-use.new/1
+<DEBUG> 9-Aug-2019::13:50:17.245 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/myservice/package-meta-data.xml
+<DEBUG> 9-Aug-2019::13:50:17.246 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/evc/package-meta-data.xml
+<DEBUG> 9-Aug-2019::13:50:17.249 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/package-meta-data.xml
+<INFO> 9-Aug-2019::13:50:17.329 Presto-sdk-dev ncs[32276]: - Writing audit log to /home/mef-dev/evc-project/logs/audit.log
+<INFO> 9-Aug-2019::13:50:17.329 Presto-sdk-dev ncs[32276]: - Enabling audit log
+<INFO> 9-Aug-2019::13:50:17.337 Presto-sdk-dev ncs[32276]: - Writing NETCONF log to /home/mef-dev/evc-project/logs/netconf.log
+<INFO> 9-Aug-2019::13:50:17.337 Presto-sdk-dev ncs[32276]: - Enabling NETCONF log
+<INFO> 9-Aug-2019::13:50:17.344 Presto-sdk-dev ncs[32276]: - Writing SNMP log to /home/mef-dev/evc-project/logs/snmp.log
+<INFO> 9-Aug-2019::13:50:17.344 Presto-sdk-dev ncs[32276]: - Enabling SNMP log
+<INFO> 9-Aug-2019::13:50:17.350 Presto-sdk-dev ncs[32276]: - Writing developer log to /home/mef-dev/evc-project/logs/devel.log
+<INFO> 9-Aug-2019::13:50:17.350 Presto-sdk-dev ncs[32276]: - Enabling developer log
+<INFO> 9-Aug-2019::13:50:17.351 Presto-sdk-dev ncs[32276]: - Writing XPath trace log to /home/mef-dev/evc-project/logs/xpath.trace
+<INFO> 9-Aug-2019::13:50:17.351 Presto-sdk-dev ncs[32276]: - Enabling XPath trace log
+<INFO> 9-Aug-2019::13:50:17.388 Presto-sdk-dev ncs[32276]: - Enabling error log
+<INFO> 9-Aug-2019::13:50:17.388 Presto-sdk-dev ncs[32276]: - Writing error log to ./logs/ncserr.log
+<INFO> 9-Aug-2019::13:50:17.407 Presto-sdk-dev ncs[32276]: - Daemon logging started
+<DEBUG> 9-Aug-2019::13:50:17.468 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-types@2018-07-11.fxs
+<DEBUG> 9-Aug-2019::13:50:17.470 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 9-Aug-2019::13:50:17.472 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 9-Aug-2019::13:50:17.473 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 9-Aug-2019::13:50:17.475 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-common-query.fxs
+<DEBUG> 9-Aug-2019::13:50:17.475 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-transactions.fxs
+<DEBUG> 9-Aug-2019::13:50:17.476 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-webui.fxs
+<DEBUG> 9-Aug-2019::13:50:17.478 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-progress.fxs
+<DEBUG> 9-Aug-2019::13:50:17.480 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.481 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.481 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.482 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.484 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 9-Aug-2019::13:50:17.485 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-common.fxs
+<DEBUG> 9-Aug-2019::13:50:17.490 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 9-Aug-2019::13:50:17.491 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 9-Aug-2019::13:50:17.492 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-global@2018-07-11.fxs
+<DEBUG> 9-Aug-2019::13:50:17.502 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.504 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/tailf-ned-id-cisco-nc.fxs
+<DEBUG> 9-Aug-2019::13:50:17.505 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-kicker.fxs
+<DEBUG> 9-Aug-2019::13:50:17.506 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.508 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs.fxs
+<DEBUG> 9-Aug-2019::13:50:17.539 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-legato-interfaces@2018-07-11.fxs
+<DEBUG> 9-Aug-2019::13:50:17.543 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/tailf-ned-id-cisco-nc-1.0.fxs
+<DEBUG> 9-Aug-2019::13:50:17.544 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-l2-eth-infra-datatypes.fxs
+<DEBUG> 9-Aug-2019::13:50:17.545 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-types.fxs
+<DEBUG> 9-Aug-2019::13:50:17.546 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-snmp-agent-cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:17.561 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-ifmgr-cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:17.567 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-l2vpn-cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:17.603 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-legato-services@2018-07-11.fxs
+<DEBUG> 9-Aug-2019::13:50:17.619 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/ietf-yang-smiv2.fxs
+<DEBUG> 9-Aug-2019::13:50:17.622 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-yang-schema-mount.fxs
+<DEBUG> 9-Aug-2019::13:50:17.623 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-restconf-monitoring.fxs
+<DEBUG> 9-Aug-2019::13:50:17.625 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-notifications.fxs
+<DEBUG> 9-Aug-2019::13:50:17.627 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-partial-lock.fxs
+<DEBUG> 9-Aug-2019::13:50:17.627 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/snmp.fxs
+<DEBUG> 9-Aug-2019::13:50:17.631 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 9-Aug-2019::13:50:17.633 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-xsd-types.fxs
+<DEBUG> 9-Aug-2019::13:50:17.634 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 9-Aug-2019::13:50:17.636 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 9-Aug-2019::13:50:17.640 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 9-Aug-2019::13:50:17.642 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-acm.fxs
+<DEBUG> 9-Aug-2019::13:50:17.644 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-webui-one.fxs
+<DEBUG> 9-Aug-2019::13:50:17.646 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-rollback.fxs
+<DEBUG> 9-Aug-2019::13:50:17.648 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 9-Aug-2019::13:50:17.649 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-rollback.fxs
+<DEBUG> 9-Aug-2019::13:50:17.650 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-query.fxs
+<DEBUG> 9-Aug-2019::13:50:17.652 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-ncs.fxs
+<DEBUG> 9-Aug-2019::13:50:17.657 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-inactive.fxs
+<DEBUG> 9-Aug-2019::13:50:17.658 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-extensions.fxs
+<DEBUG> 9-Aug-2019::13:50:17.659 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-devices-yang-library.fxs
+<DEBUG> 9-Aug-2019::13:50:17.661 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 9-Aug-2019::13:50:17.664 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 9-Aug-2019::13:50:17.665 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-scheduler.fxs
+<DEBUG> 9-Aug-2019::13:50:17.667 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-progress.fxs
+<DEBUG> 9-Aug-2019::13:50:17.669 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-kicker-extension.fxs
+<DEBUG> 9-Aug-2019::13:50:17.670 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 9-Aug-2019::13:50:17.672 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 9-Aug-2019::13:50:17.676 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.676 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.677 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.678 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 9-Aug-2019::13:50:17.680 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.682 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.684 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.685 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.686 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 9-Aug-2019::13:50:17.688 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 9-Aug-2019::13:50:17.689 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-aaa.fxs
+<DEBUG> 9-Aug-2019::13:50:17.691 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-rfc5277-device.fxs
+<DEBUG> 9-Aug-2019::13:50:17.692 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-l2-eth-infra-cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:17.704 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-ip-static-cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:17.865 Presto-sdk-dev ncs[32276]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-infra-policymgr-cfg.fxs
+<DEBUG> 9-Aug-2019::13:50:18.123 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/ncs.ccl
+<DEBUG> 9-Aug-2019::13:50:18.138 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/smart-license.ccl
+<DEBUG> 9-Aug-2019::13:50:18.160 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/scripts/command/device_save.sh
+<INFO> 9-Aug-2019::13:50:18.263 Presto-sdk-dev ncs[32276]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 9-Aug-2019::13:50:19.092 Presto-sdk-dev ncs[32276]: - CDB load: processing file: /home/mef-dev/nso/var/ncs/cdb/aaa_init.xml
+<INFO> 9-Aug-2019::13:50:19.182 Presto-sdk-dev ncs[32276]: - CDB load: processing file: /home/mef-dev/nso/var/ncs/cdb/ncs_defaults.xml
+<INFO> 9-Aug-2019::13:50:19.198 Presto-sdk-dev ncs[32276]: - CDB load: processing file: /home/mef-dev/nso/var/ncs/cdb/sls_defaults.xml
+<INFO> 9-Aug-2019::13:50:19.200 Presto-sdk-dev ncs[32276]: - CDB load: processing file: /home/mef-dev/nso/var/ncs/cdb/tailf-ncs-alarms_init.xml
+<INFO> 9-Aug-2019::13:50:19.644 Presto-sdk-dev ncs[32276]: - Starting the NCS Java VM
+<DEBUG> 9-Aug-2019::13:50:20.147 Presto-sdk-dev ncs[32276]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/snmp_init.xml
+<DEBUG> 9-Aug-2019::13:50:20.681 Presto-sdk-dev ncs[32276]: - Failed to load file ./state/packages-in-use/1/myservice/templates/myservice-template.xml: myservice-template.xml:2 Unknown servicepoint: myservice
+<INFO> 9-Aug-2019::13:50:20.818 Presto-sdk-dev ncs[32276]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 9-Aug-2019::13:50:21.026 Presto-sdk-dev ncs[32276]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 9-Aug-2019::13:50:21.183 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 9-Aug-2019::13:50:21.183 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 9-Aug-2019::13:50:21.184 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 9-Aug-2019::13:50:21.310 Presto-sdk-dev ncs[32276]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 9-Aug-2019::13:50:21.353 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.354 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.362 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.363 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.364 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.365 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.366 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.367 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.371 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 9-Aug-2019::13:50:21.372 Presto-sdk-dev ncs[32276]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 9-Aug-2019::13:50:21.421 Presto-sdk-dev ncs[32276]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 9-Aug-2019::13:50:21.735 Presto-sdk-dev ncs[32276]: - Starting the NCS Smart Licensing Java VM
+<INFO> 9-Aug-2019::13:50:21.882 Presto-sdk-dev ncs[32276]: - NCS started vsn: 5.1.0.1
+<INFO> 9-Aug-2019::13:50:29.637 Presto-sdk-dev ncs[32276]: - Smart Licensing Global Notification: type = "notifyEnabled", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 9-Aug-2019::13:50:34.512 Presto-sdk-dev ncs[32276]: - Smart Licensing Global Notification: type = "notifyReady", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 9-Aug-2019::13:50:34.568 Presto-sdk-dev ncs[32276]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 9 13:50:29 2019", version = "1.0", requestedDate = "Aug 9 13:50:29 2019", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 7 12:50:29 2019", requestedCount = 1
+<INFO> 9-Aug-2019::13:53:19.963 Presto-sdk-dev ncs[32276]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 9 13:53:19 2019", version = "1.0", requestedDate = "Aug 9 13:53:19 2019", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 7 12:51:19 2019", requestedCount = 1
+<INFO> 9-Aug-2019::13:53:19.984 Presto-sdk-dev ncs[32276]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 9 13:53:19 2019", version = "1.0", requestedDate = "Aug 9 13:53:19 2019", tag = "regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 7 12:51:19 2019", requestedCount = 1
+<INFO> 9-Aug-2019::14:03:21.443 Presto-sdk-dev ncs[32276]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 9 14:03:19 2019", version = "1.0", requestedDate = "Aug 9 14:03:19 2019", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 7 12:51:19 2019", requestedCount = 1
+<INFO> 9-Aug-2019::14:03:21.456 Presto-sdk-dev ncs[32276]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 9 14:03:19 2019", version = "1.0", requestedDate = "Aug 9 14:03:19 2019", tag = "regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 7 12:51:19 2019", requestedCount = 2
+<INFO> 10-Aug-2019::20:03:40.225 Presto-sdk-dev ncs[32276]: - Smart Licensing evaluation time remaining: 89d 23h 1m 0s
+<INFO> 12-Aug-2019::11:30:26.161 Presto-sdk-dev ncs[6382]: - Writing daemon log to /home/mef-dev/evc-project/logs/ncs.log
+<INFO> 12-Aug-2019::11:30:25.677 Presto-sdk-dev ncs[6382]: - Enabling daemon log
+<INFO> 12-Aug-2019::11:30:25.696 Presto-sdk-dev ncs[6382]: - Starting NCS vsn: 5.1.0.1
+<DEBUG> 12-Aug-2019::11:30:25.776 Presto-sdk-dev ncs[6382]: - Loading file confd.fxs
+<DEBUG> 12-Aug-2019::11:30:25.832 Presto-sdk-dev ncs[6382]: - Loading file ietf-yang-types.fxs
+<DEBUG> 12-Aug-2019::11:30:25.833 Presto-sdk-dev ncs[6382]: - Loading file ietf-inet-types.fxs
+<DEBUG> 12-Aug-2019::11:30:25.836 Presto-sdk-dev ncs[6382]: - Loading file ietf-yang-library.fxs
+<DEBUG> 12-Aug-2019::11:30:25.865 Presto-sdk-dev ncs[6382]: - Loading file ietf-netconf.fxs
+<DEBUG> 12-Aug-2019::11:30:25.868 Presto-sdk-dev ncs[6382]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 12-Aug-2019::11:30:25.870 Presto-sdk-dev ncs[6382]: - Loading file netconf_netmod.fxs
+<DEBUG> 12-Aug-2019::11:30:25.872 Presto-sdk-dev ncs[6382]: - Loading file ietf-restconf.fxs
+<DEBUG> 12-Aug-2019::11:30:25.874 Presto-sdk-dev ncs[6382]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 12-Aug-2019::11:30:25.887 Presto-sdk-dev ncs[6382]: - Loading file tailf-rest-error.fxs
+<DEBUG> 12-Aug-2019::11:30:25.889 Presto-sdk-dev ncs[6382]: - Loading file tailf-rest-query.fxs
+<DEBUG> 12-Aug-2019::11:30:25.892 Presto-sdk-dev ncs[6382]: - Loading file confd_cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:25.949 Presto-sdk-dev ncs[6382]: - Loading file config.fxs
+<DEBUG> 12-Aug-2019::11:30:25.950 Presto-sdk-dev ncs[6382]: - Loading file netconf_notification.fxs
+<DEBUG> 12-Aug-2019::11:30:25.951 Presto-sdk-dev ncs[6382]: - Loading file netconf_actions.fxs
+<DEBUG> 12-Aug-2019::11:30:25.952 Presto-sdk-dev ncs[6382]: - Loading file yang.fxs
+<DEBUG> 12-Aug-2019::11:30:25.953 Presto-sdk-dev ncs[6382]: - Loading file tailf_netconf.fxs
+<DEBUG> 12-Aug-2019::11:30:25.954 Presto-sdk-dev ncs[6382]: - Loading file cli-builtin.fxs
+<DEBUG> 12-Aug-2019::11:30:25.957 Presto-sdk-dev ncs[6382]: - Loading file tailf-ncs-config.fxs
+<DEBUG> 12-Aug-2019::11:30:25.976 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/evc-project/ncs.conf
+<INFO> 12-Aug-2019::11:30:26.002 Presto-sdk-dev ncs[6382]: - Consulting daemon configuration file /home/mef-dev/evc-project/ncs.conf
+<DEBUG> 12-Aug-2019::11:30:26.049 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/myservice/package-meta-data.xml
+<DEBUG> 12-Aug-2019::11:30:26.054 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/evc/package-meta-data.xml
+<DEBUG> 12-Aug-2019::11:30:26.057 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/package-meta-data.xml
+<INFO> 12-Aug-2019::11:30:26.139 Presto-sdk-dev ncs[6382]: - Writing audit log to /home/mef-dev/evc-project/logs/audit.log
+<INFO> 12-Aug-2019::11:30:26.139 Presto-sdk-dev ncs[6382]: - Enabling audit log
+<INFO> 12-Aug-2019::11:30:26.146 Presto-sdk-dev ncs[6382]: - Writing NETCONF log to /home/mef-dev/evc-project/logs/netconf.log
+<INFO> 12-Aug-2019::11:30:26.146 Presto-sdk-dev ncs[6382]: - Enabling NETCONF log
+<INFO> 12-Aug-2019::11:30:26.152 Presto-sdk-dev ncs[6382]: - Writing SNMP log to /home/mef-dev/evc-project/logs/snmp.log
+<INFO> 12-Aug-2019::11:30:26.152 Presto-sdk-dev ncs[6382]: - Enabling SNMP log
+<INFO> 12-Aug-2019::11:30:26.159 Presto-sdk-dev ncs[6382]: - Writing developer log to /home/mef-dev/evc-project/logs/devel.log
+<INFO> 12-Aug-2019::11:30:26.159 Presto-sdk-dev ncs[6382]: - Enabling developer log
+<INFO> 12-Aug-2019::11:30:26.160 Presto-sdk-dev ncs[6382]: - Writing XPath trace log to /home/mef-dev/evc-project/logs/xpath.trace
+<INFO> 12-Aug-2019::11:30:26.160 Presto-sdk-dev ncs[6382]: - Enabling XPath trace log
+<INFO> 12-Aug-2019::11:30:26.195 Presto-sdk-dev ncs[6382]: - Enabling error log
+<INFO> 12-Aug-2019::11:30:26.195 Presto-sdk-dev ncs[6382]: - Writing error log to ./logs/ncserr.log
+<INFO> 12-Aug-2019::11:30:26.212 Presto-sdk-dev ncs[6382]: - Daemon logging started
+<DEBUG> 12-Aug-2019::11:30:26.332 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-types@2018-07-11.fxs
+<DEBUG> 12-Aug-2019::11:30:26.334 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 12-Aug-2019::11:30:26.335 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 12-Aug-2019::11:30:26.335 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 12-Aug-2019::11:30:26.337 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-common-query.fxs
+<DEBUG> 12-Aug-2019::11:30:26.338 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-transactions.fxs
+<DEBUG> 12-Aug-2019::11:30:26.339 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-webui.fxs
+<DEBUG> 12-Aug-2019::11:30:26.340 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-progress.fxs
+<DEBUG> 12-Aug-2019::11:30:26.342 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.343 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.344 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.345 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.345 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 12-Aug-2019::11:30:26.346 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-common.fxs
+<DEBUG> 12-Aug-2019::11:30:26.347 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 12-Aug-2019::11:30:26.348 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 12-Aug-2019::11:30:26.349 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-global@2018-07-11.fxs
+<DEBUG> 12-Aug-2019::11:30:26.353 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.355 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/tailf-ned-id-cisco-nc.fxs
+<DEBUG> 12-Aug-2019::11:30:26.355 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-kicker.fxs
+<DEBUG> 12-Aug-2019::11:30:26.357 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.358 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs.fxs
+<DEBUG> 12-Aug-2019::11:30:26.385 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-legato-interfaces@2018-07-11.fxs
+<DEBUG> 12-Aug-2019::11:30:26.388 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/tailf-ned-id-cisco-nc-1.0.fxs
+<DEBUG> 12-Aug-2019::11:30:26.390 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-l2-eth-infra-datatypes.fxs
+<DEBUG> 12-Aug-2019::11:30:26.391 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-types.fxs
+<DEBUG> 12-Aug-2019::11:30:26.392 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-snmp-agent-cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:26.406 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-ifmgr-cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:26.410 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-l2vpn-cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:26.454 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/evc/load-dir/mef-legato-services@2018-07-11.fxs
+<DEBUG> 12-Aug-2019::11:30:26.471 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/ietf-yang-smiv2.fxs
+<DEBUG> 12-Aug-2019::11:30:26.472 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-yang-schema-mount.fxs
+<DEBUG> 12-Aug-2019::11:30:26.473 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-restconf-monitoring.fxs
+<DEBUG> 12-Aug-2019::11:30:26.475 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-notifications.fxs
+<DEBUG> 12-Aug-2019::11:30:26.477 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ietf-netconf-partial-lock.fxs
+<DEBUG> 12-Aug-2019::11:30:26.478 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/snmp.fxs
+<DEBUG> 12-Aug-2019::11:30:26.481 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 12-Aug-2019::11:30:26.482 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-xsd-types.fxs
+<DEBUG> 12-Aug-2019::11:30:26.483 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 12-Aug-2019::11:30:26.485 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 12-Aug-2019::11:30:26.489 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 12-Aug-2019::11:30:26.490 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-acm.fxs
+<DEBUG> 12-Aug-2019::11:30:26.491 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-webui-one.fxs
+<DEBUG> 12-Aug-2019::11:30:26.492 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-rollback.fxs
+<DEBUG> 12-Aug-2019::11:30:26.494 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 12-Aug-2019::11:30:26.495 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-rollback.fxs
+<DEBUG> 12-Aug-2019::11:30:26.496 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-query.fxs
+<DEBUG> 12-Aug-2019::11:30:26.497 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-ncs.fxs
+<DEBUG> 12-Aug-2019::11:30:26.501 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-inactive.fxs
+<DEBUG> 12-Aug-2019::11:30:26.502 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-netconf-extensions.fxs
+<DEBUG> 12-Aug-2019::11:30:26.504 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-devices-yang-library.fxs
+<DEBUG> 12-Aug-2019::11:30:26.505 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 12-Aug-2019::11:30:26.507 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 12-Aug-2019::11:30:26.508 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-scheduler.fxs
+<DEBUG> 12-Aug-2019::11:30:26.510 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-progress.fxs
+<DEBUG> 12-Aug-2019::11:30:26.512 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-kicker-extension.fxs
+<DEBUG> 12-Aug-2019::11:30:26.513 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 12-Aug-2019::11:30:26.519 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 12-Aug-2019::11:30:26.522 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.524 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.525 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.526 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 12-Aug-2019::11:30:26.526 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.527 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.529 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.531 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.532 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 12-Aug-2019::11:30:26.535 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 12-Aug-2019::11:30:26.536 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-aaa.fxs
+<DEBUG> 12-Aug-2019::11:30:26.540 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/tailf-ncs-rfc5277-device.fxs
+<DEBUG> 12-Aug-2019::11:30:26.542 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-l2-eth-infra-cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:26.552 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-ip-static-cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:26.683 Presto-sdk-dev ncs[6382]: - Loading file ./state/packages-in-use/1/cisco/load-dir/Cisco-IOS-XR-infra-policymgr-cfg.fxs
+<DEBUG> 12-Aug-2019::11:30:26.933 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/ncs.ccl
+<DEBUG> 12-Aug-2019::11:30:26.947 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/etc/ncs/smart-license.ccl
+<DEBUG> 12-Aug-2019::11:30:26.968 Presto-sdk-dev ncs[6382]: - Loading file /home/mef-dev/nso/scripts/command/device_save.sh
+<INFO> 12-Aug-2019::11:30:27.150 Presto-sdk-dev ncs[6382]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 12-Aug-2019::11:30:28.097 Presto-sdk-dev ncs[6382]: - Starting the NCS Java VM
+<NOTICE> 12-Aug-2019::11:30:28.600 Presto-sdk-dev ncs[6382]: - The notification replay store log ''ncs-events'' is being repaired...
+<NOTICE> 12-Aug-2019::11:30:28.649 Presto-sdk-dev ncs[6382]: - The notification replay store log ''kicker-events'' is being repaired...
+<NOTICE> 12-Aug-2019::11:30:28.664 Presto-sdk-dev ncs[6382]: - The notification replay store log ''device-notifications'' is being repaired...
+<DEBUG> 12-Aug-2019::11:30:29.363 Presto-sdk-dev ncs[6382]: - Failed to load file ./state/packages-in-use/1/myservice/templates/myservice-template.xml: myservice-template.xml:2 Unknown servicepoint: myservice
+<INFO> 12-Aug-2019::11:30:29.432 Presto-sdk-dev ncs[6382]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 12-Aug-2019::11:30:29.656 Presto-sdk-dev ncs[6382]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 12-Aug-2019::11:30:29.813 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 12-Aug-2019::11:30:29.815 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 12-Aug-2019::11:30:29.816 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 12-Aug-2019::11:30:30.012 Presto-sdk-dev ncs[6382]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 12-Aug-2019::11:30:30.045 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.047 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.056 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.065 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.066 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.068 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.072 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.077 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.085 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 12-Aug-2019::11:30:30.086 Presto-sdk-dev ncs[6382]: - Loading MIB: /home/mef-dev/nso/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 12-Aug-2019::11:30:30.124 Presto-sdk-dev ncs[6382]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 12-Aug-2019::11:30:30.426 Presto-sdk-dev ncs[6382]: - Starting the NCS Smart Licensing Java VM
+<INFO> 12-Aug-2019::11:30:30.631 Presto-sdk-dev ncs[6382]: - NCS started vsn: 5.1.0.1
+<INFO> 12-Aug-2019::11:30:42.720 Presto-sdk-dev ncs[6382]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 12 11:30:37 2019", version = "1.0", requestedDate = "Aug 12 11:30:37 2019", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 10 08:54:37 2019", requestedCount = 1
+<INFO> 12-Aug-2019::11:30:42.721 Presto-sdk-dev ncs[6382]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Aug 12 11:30:37 2019", version = "1.0", requestedDate = "Aug 12 11:30:37 2019", tag = "regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd", enforceMode = "eval", daysLeft = 90, expiryDate = "Nov 10 08:54:37 2019", requestedCount = 2
+<INFO> 12-Aug-2019::12:30:30.393 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 21h 25m 0s
+<INFO> 12-Aug-2019::13:30:30.362 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 20h 25m 0s
+<INFO> 12-Aug-2019::14:30:30.373 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 19h 25m 0s
+<INFO> 12-Aug-2019::15:30:30.360 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 18h 25m 0s
+<INFO> 12-Aug-2019::16:30:30.359 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 17h 25m 0s
+<INFO> 12-Aug-2019::17:30:30.360 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 16h 25m 0s
+<INFO> 12-Aug-2019::18:54:16.053 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 15h 25m 0s
+<INFO> 12-Aug-2019::19:53:41.236 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 14h 25m 0s
+<INFO> 13-Aug-2019::06:59:54.626 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 13h 26m 0s
+<INFO> 13-Aug-2019::07:59:19.809 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 12h 27m 0s
+<INFO> 13-Aug-2019::08:58:44.993 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 11h 27m 0s
+<INFO> 13-Aug-2019::09:58:10.180 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 10h 28m 0s
+<INFO> 13-Aug-2019::10:57:35.360 Presto-sdk-dev ncs[6382]: - Smart Licensing evaluation time remaining: 89d 9h 29m 0s

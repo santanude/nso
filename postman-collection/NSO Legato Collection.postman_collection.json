@@ -1,0 +1,158 @@
+{
+	"id": "9a0e54c4-a957-8044-24a1-5ab2326d2e09",
+	"name": "NSO Legato Collection",
+	"description": "",
+	"order": [
+		"931e4dfb-91d2-d230-015a-61a6e032be4e",
+		"e1ef5f36-9d0c-8753-f694-2b139463a73a",
+		"57e5ab2e-7bbd-b5d1-54ac-9e6a48d0e61a",
+		"1c05e3ae-ea0f-4336-d9d7-6e581f3b83dd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1565257035633,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1c05e3ae-ea0f-4336-d9d7-6e581f3b83dd",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46YWRtaW4=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/running/infra-policymgr-cfg:policy-manager/class-maps/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565258998388,
+			"name": "Get XR Policy Manager",
+			"description": "",
+			"collectionId": "9a0e54c4-a957-8044-24a1-5ab2326d2e09",
+			"responses": []
+		},
+		{
+			"id": "57e5ab2e-7bbd-b5d1-54ac-9e6a48d0e61a",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46YWRtaW4=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/running/mef-interfaces:mef-interfaces/carrier-ethernet/subscriber-interfaces/uni",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565258135028,
+			"name": "Get List of Interface",
+			"description": "",
+			"collectionId": "9a0e54c4-a957-8044-24a1-5ab2326d2e09",
+			"responses": []
+		},
+		{
+			"id": "931e4dfb-91d2-d230-015a-61a6e032be4e",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46YWRtaW4=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/running/mef-services:mef-services/carrier-ethernet/subscriber-services/evc/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565257849483,
+			"name": "Get List of Service",
+			"description": "",
+			"collectionId": "9a0e54c4-a957-8044-24a1-5ab2326d2e09",
+			"responses": []
+		},
+		{
+			"id": "e1ef5f36-9d0c-8753-f694-2b139463a73a",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46YWRtaW4=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/running/mef-global:mef-global/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565257806142,
+			"name": "Get List of Profile",
+			"description": "",
+			"collectionId": "9a0e54c4-a957-8044-24a1-5ab2326d2e09",
+			"responses": []
+		}
+	]
+}

@@ -1,0 +1,19 @@
+# Created by: admin
+# Date: 2019-08-12 11:38:55
+# Via: webui
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10005
+# TransactionId: 204
+# Hostname: Presto-sdk-dev
+
+ncs:devices {
+    ncs:device ciscoD26 {
+        ncs:device-type {
+            ncs:netconf {
+                ncs:ned-id netconf;
+            }
+         }
+     }
+ }
